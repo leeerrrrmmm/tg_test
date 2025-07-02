@@ -86,7 +86,7 @@ class _TmaModalState extends State<TmaModal> {
                       child: Row(
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: [
-                          // Ліва кнопка: Done или Close
+                          // Ліва кнопка: Done чи Close
                           if (!isAtBottom)
                             IconButton(
                               onPressed: () => Navigator.maybePop(context),

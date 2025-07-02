@@ -1,16 +1,36 @@
-# tg_test
+# TMA Modal WebView — Flutter App
 
-A new Flutter project.
 
-## Getting Started
+## 📱 Основні можливості
 
-This project is a starting point for a Flutter application.
+-  Модальне вікно прикріплене до середини екрану
+-  Плавне перетягування вікна (згортання, напіврозгортання, повне розгортання)
+-  Завантаження WebView з URL, переданого у конструктор
+-  Кнопка закриття або згортання в залежності від стану вікна
+-  Підтримка Android та iOS (кросплатформеність)
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+##  Технології
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Flutter
+- `webview_flutter`
+- `webview_flutter_android`
+- `webview_flutter_wkwebview`
+- `solid_lints`
+
+
+---
+
+## 🚀 Як запустити проект
+
+### Вимоги
+
+- Flutter SDK (рекомендована версія 3.x або новіша)  
+  [Інструкція з встановлення Flutter](https://flutter.dev/docs/get-started/install)
+
+### Кроки запуску
+
+1. Клонувати репозиторій:
+   git clone https://github.com/leeerrrrmmm/tg_test.git
+   cd tg_test
